@@ -133,8 +133,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -146,7 +145,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "74cc4348cbb672ee",
+  "active": "9ce90c8d543fb2af",
   "lastOpenFiles": [
     "TASK/개인/TODO.md",
     "TASK/개인",
