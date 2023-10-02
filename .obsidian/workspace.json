@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TASK/개인/TODO.md",
+                "file": "TASK/KHH/TODO.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TASK/개인/TODO.md",
+                "file": "TASK/KHH/TODO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TASK/개인/TODO.md",
+                "file": "TASK/KHH/TODO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TASK/개인/TODO.md"
+                "file": "TASK/KHH/TODO.md"
               }
             }
           }
@@ -145,9 +145,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "9ce90c8d543fb2af",
+  "active": "74cc4348cbb672ee",
   "lastOpenFiles": [
+    "TASK/KHH",
     "TASK/개인/TODO.md",
+    "TASK/KHH/TODO.md",
     "TASK/개인",
     "TASK"
   ]
