@@ -10,6 +10,7 @@ kanban-plugin: basic
 - [ ] [[유저데이터 삭제]]
 - [ ] [[시간조작치트 대응]]
 - [ ] 유저삭제 관련 Admin Api
+- [ ] [[Link과금 처리시 서버의 작업]]
 
 
 ## In Process
