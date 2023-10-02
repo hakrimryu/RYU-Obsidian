@@ -11,11 +11,9 @@
             "id": "74cc4348cbb672ee",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "TASK/개인/TODO.md",
-                "mode": "source",
-                "source": false
+                "file": "TASK/KHH/Ryu_Task.md"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TASK/개인/TODO.md",
+                "file": "TASK/KHH/Ryu_Task.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TASK/개인/TODO.md",
+                "file": "TASK/KHH/Ryu_Task.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TASK/개인/TODO.md"
+                "file": "TASK/KHH/Ryu_Task.md"
               }
             }
           }
@@ -147,13 +145,13 @@
   },
   "active": "74cc4348cbb672ee",
   "lastOpenFiles": [
+    "TASK/개인/TODO.md",
     "TASK/KHH/Ryu_Task.md",
     "TASK/KHH/Ryu_Task_Sub/테스트 딜리버리 작성.md",
     "TASK/KHH/TODO.md",
     "TASK/KHH/Ryu_Task_Sub/Link과금 처리시 서버의 작업.md",
     "TASK/KHH/Ryu_Task_Sub/DEV환경 LINK서버 통신 확인.md",
     "TASK/KHH/Ryu_Task_Sub",
-    "TASK/개인/TODO.md",
     "TASK/KHH/Ryu_Task_Sub/시간조작치트 대응.md",
     "TASK/KHH/Ryu_Task_Sub/유저데이터 삭제.md",
     "TASK/KHH/Ryu_Task_Sub/유저데이터이전.md",
