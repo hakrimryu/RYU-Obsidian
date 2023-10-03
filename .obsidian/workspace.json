@@ -16,8 +16,19 @@
                 "file": "TASK/KHH/Ryu_Task.md"
               }
             }
+          },
+          {
+            "id": "7539ab8f3e9c0b53",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "TASK/KHH/Ryu_Task.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -143,7 +154,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "74cc4348cbb672ee",
+  "active": "7539ab8f3e9c0b53",
   "lastOpenFiles": [
     "TASK/개인/TODO.md",
     "TASK/KHH/Ryu_Task.md",
