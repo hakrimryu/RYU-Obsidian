@@ -21,6 +21,7 @@ kanban-plugin: basic
 
 ## Done
 
+- [ ] [[게임서버 개발LINK환경 설정]]
 - [ ] [[DEV환경 LINK서버 통신 확인]]
 
 
