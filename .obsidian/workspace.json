@@ -21,9 +21,11 @@
             "id": "7539ab8f3e9c0b53",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "TASK/KHH/Ryu_Task.md"
+                "file": "TASK/KHH/Ryu_Task_Sub/테스트 딜리버리 작성.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -94,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TASK/KHH/Ryu_Task.md",
+                "file": "TASK/KHH/Ryu_Task_Sub/테스트 딜리버리 작성.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TASK/KHH/Ryu_Task.md",
+                "file": "TASK/KHH/Ryu_Task_Sub/테스트 딜리버리 작성.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TASK/KHH/Ryu_Task.md"
+                "file": "TASK/KHH/Ryu_Task_Sub/테스트 딜리버리 작성.md"
               }
             }
           }
@@ -156,8 +158,9 @@
   },
   "active": "7539ab8f3e9c0b53",
   "lastOpenFiles": [
-    "게임서버 개발LINK환경 설정.md",
     "TASK/KHH/Ryu_Task.md",
+    "TASK/KHH/Ryu_Task_Sub/LINK과금 클라이언트 와 LINK서버 설정 작업.md",
+    "TASK/KHH/Ryu_Task_Sub/게임서버 개발LINK환경 설정.md",
     "TASK/개인/TODO.md",
     "TASK/KHH/Ryu_Task_Sub/테스트 딜리버리 작성.md",
     "TASK/KHH/TODO.md",
