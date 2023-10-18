@@ -58,3 +58,4 @@ store (string) : google_play
 3.   【AWS/게임서버】OAuth 2.0 인증을 사용하여 액세스 토큰을 취득
 4.   【AWS/게임서버】REST API를 이용하여 로깅 관련 스크립트 작성
 
+
