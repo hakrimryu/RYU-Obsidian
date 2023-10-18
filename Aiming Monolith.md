@@ -42,4 +42,4 @@ store (string) : google_play
 테스트용으로 준비한 BQ Sandbox_Nobollel에 PHP에서 라이브러리를 사용하여 데이터를 로깅한다.
 
 ・BigQuery API 사용
-BigQuery API를 사용하여 삽입할 데이터를 사전에 json으로 가공하여 BigQuery API를 호출하고 데이터를 전송한다.
+BigQuery API를 사용하여 삽입할 데이터를 사전에 json으로 가공하여 BigQuery API를 호출하고 데이터를 전송한다.ㅋ
