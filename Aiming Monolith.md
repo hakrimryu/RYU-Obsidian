@@ -36,13 +36,18 @@ store (string) : google_play
 3. Ops Agent 설정 (google-cloud-ops-agent/config.yaml)
 4. 백엔드 로그 설정 (로그 경로 추가)
 5. Google Cloud에서 Cloud Logging권한 부여및 어카운트 키(Json) 생성
-6. 게임
-
-
-
+6. 게임서버 인프라(AWS)에 5에서 취득한 키 저장 및 환경 변수(경로) 작성
+7. Ops Agent재시작
+8. sinks를 이용하여 Cloud Logging에서 BigQuery로 로그 데이터를 전송
+9. 공통작업 실시
+10. Ops Agent를 이용한 로깅 관련 스크립트 작성
 
 ・BigQuery PHP Library를 사용
-테스트용으로 준비한 BQ Sandbox_Nobollel에 PHP에서 라이브러리를 사용하여 데이터를 로깅한다.
+1. Composer를 사용하여 BigQuery PHP Client Library를 설치
+2. Google Cloud에서 서비스 계정 생성 및 Cloud Logging권한 부여및 어카운트 키(Json) 생성
+3. 공통작업 실시
+4. BigQuery Library를 이용하여 로깅 관련 스크립트 작성
 
-・BigQuery API 사용
-BigQuery API를 사용하여 삽입할 데이터를 사전에 json으로 가공하여 BigQuery API를 호출하고 데이터를 전송한다.ㅋ
+・BigQuery REST API 사용
+BigQuery API를 사용하여 삽입할 데이터를 사전에 json으로 가공하여 BigQuery API를 호출하고 데이터를 전송한다.
+1. Google Cloud Console에서 
