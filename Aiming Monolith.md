@@ -58,7 +58,9 @@ store (string) : google_play
 3.   【AWS/게임서버】OAuth 2.0 인증을 사용하여 액세스 토큰을 취득
 4.   【AWS/게임서버】REST API를 이용하여 로깅 관련 스크립트 작성
 
-
-정리
-1. 모노리스는 KPI목적의 프런트이고 관련 데이터는 BigQuery에 저장되는가?
-2. 
+・Firebase Analytics를 이용한 로깅 및 BigQuery 전송
+(Client측에서 Firebase Analytics와 BigQuery 연동 작업이 되었다는 것을 전제로 함)
+1.   【AWS/게임서버】Composer를 통해 Firebase Admin SDK를 설치
+2.   【Firebase】Firebase 프로젝트의 서비스 어카운트 키(Json) 생성
+3.   【AWS/게임서버】생성한 어카운트 키를 서버에 저장 및 환경 변수(경로) 작성
+4. 필요한 이벤트를 Firebase Analytics에 로그로 전송합니다.
