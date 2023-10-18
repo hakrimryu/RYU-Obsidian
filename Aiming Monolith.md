@@ -59,5 +59,6 @@ store (string) : google_play
 4.   【AWS/게임서버】REST API를 이용하여 로깅 관련 스크립트 작성
 
 
-QA리스트
+정리
 1. 모노리스는 KPI목적의 프런트이고 관련 데이터는 BigQuery에 저장되는가?
+2. 
