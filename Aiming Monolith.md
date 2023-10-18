@@ -13,4 +13,6 @@ BQ Sandbox_Nobollel
 https://console.cloud.google.com/bigquery?project=bq-sandbox-402401&supportedpurview=project
 
 
-Firebase Analytics연동
+게임서버에서 BQ에 로깅을 남기는 방법
+1. BigQuery PHP Client Library를 사용
+2. 
