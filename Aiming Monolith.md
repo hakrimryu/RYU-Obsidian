@@ -14,16 +14,7 @@ BQ Sandbox_Nobollel
 https://console.cloud.google.com/bigquery?project=bq-sandbox-402401&supportedpurview=project
 
 
-개발시 필요한 정보
-개발 환경에 대해서 가장 베스트는 Aiming사로 부터 제공 받는 것이다.
-・cloud logging에ops agent를 사용해서 전송하는 경우
-Google Cloud의 vm인스턴스에 Ops Agent를 설치 하여 사용하기 때문에 SandBox에서의 테스트는 불가능 하기 때문에 Aiming사에게 관련 개발 환경과 권한을 받야 작업해야 한다.
-
-・BigQuery PHP Library를 사용
-・BigQuery API 사용
-BQ Sandbox_Nobollel를 작성하였기 때문에 개발및 테스트 환경은 즉시 제공 받지 않아도 작업이 가능하다. 추후 Aiming사에게 환경을 제공 받을 경우 이전 작업을 실시한다.
-
-・공통
+개발 협의
 구매와 소비관련의 중요도가 높을 경우 게임서버를 통한 로깅 작업을 실시 하기로 하였기 때문에
 이에 따른 BQ의 데이터셋의 데이터(CSV)가 필요하다 필요하다.
 Nobollel의 플래너측에서 작성할지 Aiming에서 작성할지?
