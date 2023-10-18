@@ -30,18 +30,21 @@ store (string) : google_play
 
 
 게임서버에서 BQ에 로깅작업의 검토
+・사전 필요 작업
+1. BQ의 데이터셋 설계 및 작성(csv)및 데이터셋 생성
+
 ・cloud logging에ops agent를 사용해서 전송
 (この方法が一番柔軟性が高くて、Aiming側で好きに対応できる一般的な方法)
-1. 게임서버 인프라(AWS)에 Google Cloud의 Ops Agent설치
-2. Ops Agent 설정 (google-cloud-ops-agent/config.yaml)
-3. 백엔드 로그 설정 (로그 경로 추가)
-4. Google Cloud에서 서비스 계정 생성 및 Cloud Logging권한 부여및 어카운트 키(Json) 생성
-5. 게임서버 인프라(AWS)에 5에서 취득한 키 저장 및 환경 변수(경로) 작성
-6. Ops Agent재시작
-7. sinks를 이용하여 Cloud Logging에서 BigQuery로 로그 데이터를 전송
-8. sinks 필터 설정
-9. 공통작업 실시
-10. Ops Agent를 이용한 로깅 관련 스크립트 작성
+1.   【AWS/게임서버】Google Cloud의 Ops Agent설치
+2.   【AWS/게임서버】Ops Agent 설정 (google-cloud-ops-agent/config.yaml)
+3.   【AWS/게임서버】로그 설정 (로그 경로 추가)
+4.   【Google Cloud】서비스 계정 생성 및 Cloud Logging권한 부여및 어카운트 키(Json) 생성
+5.   【AWS/게임서버】생성한 어카운트키 저장 및 환경 변수(경로) 작성
+6.   【AWS/게임서버】Ops Agent재시작
+7.   【Google Cloud】sinks를 이용하여 Cloud Logging에서 BigQuery로 로그 데이터를 전송
+8.   【Google Cloud】sinks 필터 설정
+9.   【AWS/게임서버】공통작업 실시
+10. 【AWS/게임서버】Ops Agent를 이용한 로깅 관련 스크립트 작성
 
 ・BigQuery PHP Library를 사용
 1. 게임서버에 인프라(AWS)에 Composer를 사용하여 BigQuery PHP Client Library를 설치
@@ -53,6 +56,8 @@ store (string) : google_play
 ・BigQuery REST API 사용
 BigQuery API를 사용하여 삽입할 데이터를 사전에 json으로 가공하여 BigQuery API를 호출하고 데이터를 전송한다.
 1. Google Cloud에서 서비스 계정 생성 및 BigQuery권한 부여및 OAuth 2.0 클라이언트 ID를 생성
-2. Google의 OAuth 2.0 인증을 사용하여 액세스 토큰을 취득
-3. 공통작업 실시
-4. REST API를 이용하여 로깅 관련 스크립트 작성
+2. 게임서버(AWS)에 Google API PHP 클라이언트 라이브러리를 설치
+3. Google의 OAuth 2.0 인증을 사용하여 액세스 토큰을 취득
+4. 공통작업 실시
+5. REST API를 이용하여 로깅 관련 스크립트 작성
+
