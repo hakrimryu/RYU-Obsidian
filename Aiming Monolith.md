@@ -60,7 +60,6 @@ store (string) : google_play
 
 ・Firebase Analytics를 이용한 로깅 및 BigQuery 전송
 (Client측에서 Firebase Analytics와 BigQuery 연동 작업이 되었다는 것을 전제로 함)
-1.   【AWS/게임서버】Composer를 통해 Firebase Admin SDK를 설치
-2.   【Firebase】Firebase 프로젝트의 서비스 어카운트 키(Json) 생성
-3.   【AWS/게임서버】생성한 어카운트 키를 서버에 저장 및 환경 변수(경로) 작성
-4. 
+1.   【Unity】클라이언트애서 로깅 대상 api를 두드린다.
+2.   【AWS/게임서버】필요하게 서버측에서 Log용 데이터를 작성한다.
+3.   【Unity】response로 성공 값이 돌아 오면 LogEvent
