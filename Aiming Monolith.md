@@ -8,4 +8,9 @@
 (KPI イベントリスト)
 https://docs.google.com/spreadsheets/d/1tLgsojpTqspgkFo1fxYsQ1IgvLBk4s8kQRCzcyDBrUw/edit?pli=1#gid=1336877271
 
+(테스트환경)
+BQ Sandbox_Nobollel
+https://console.cloud.google.com/bigquery?project=bq-sandbox-402401&supportedpurview=project
+
+
 Firebase Analytics연동
