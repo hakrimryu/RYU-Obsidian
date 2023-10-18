@@ -29,7 +29,7 @@ price (int) : 100
 store (string) : google_play
 
 
-게임서버에서 BigQuery에 로깅 예상 작업 검토(3가지 방법)
+게임서버에서 BigQuery에 로깅 예상 작업 검토(4가지 방법)
 ・공통작업
 1. 로깅 대상의 API조사
 2. BQ의 데이터셋 설계 및 작성(csv)및 데이터셋 생성
@@ -62,4 +62,4 @@ store (string) : google_play
 (Client측에서 Firebase Analytics와 BigQuery 연동 작업이 되었다는 것을 전제로 함)
 1.   【Unity】클라이언트애서 로깅 대상 api를 두드린다.
 2.   【AWS/게임서버】필요하게 서버측에서 Log용 데이터를 작성한다.
-3.   【Unity】response로 성공 값이 돌아 오면 LogEvent
+3.   【Unity】response로 성공 값이 돌아 오면 FirebaseAnalytics.LogEvent를 이용하여 로깅한다.
