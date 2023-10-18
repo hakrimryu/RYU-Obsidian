@@ -29,14 +29,13 @@ price (int) : 100
 store (string) : google_play
 
 
-게임서버에서 BQ에 로깅작업의 검토
+게임서버에서 BigQuery에 로깅 예상 작업 검토(3가지 방법)
 ・공통작업
 1. 로깅 대상의 API조사
 2. BQ의 데이터셋 설계 및 작성(csv)및 데이터셋 생성
 3. 사양및 로깅 데이터에 따른 API추가 및 수정
 
 ・cloud logging에ops agent를 사용해서 전송
-(この方法が一番柔軟性が高くて、Aiming側で好きに対応できる一般的な方法)
 1.   【AWS/게임서버】Google Cloud의 Ops Agent설치
 2.   【AWS/게임서버】Ops Agent 설정 (google-cloud-ops-agent/config.yaml)
 3.   【AWS/게임서버】로그 설정 (로그 경로 추가)
