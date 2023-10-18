@@ -63,4 +63,4 @@ store (string) : google_play
 1.   【AWS/게임서버】Composer를 통해 Firebase Admin SDK를 설치
 2.   【Firebase】Firebase 프로젝트의 서비스 어카운트 키(Json) 생성
 3.   【AWS/게임서버】생성한 어카운트 키를 서버에 저장 및 환경 변수(경로) 작성
-4. 필요한 이벤트를 Firebase Analytics에 로그로 전송합니다.
+4. 
