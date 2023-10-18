@@ -32,10 +32,11 @@ store (string) : google_play
 게임서버에서 BQ에 로깅작업의 검토
 ・cloud logging에ops agent를 사용해서 전송
 (この方法が一番柔軟性が高くて、Aiming側で好きに対応できる一般的な方法)
-1. Google Cloud VM 인스턴스 생성 (Aiming)
-2. Ops Agent 설치 (Aiming)
-3. Ops Agent 구성 (Aiming)
-4. 백엔드 로그 설정
+1. 게임서버 인프라(AWS)에 Google Cloud의 Ops Agent설치
+3. Ops Agent 설정 (google-cloud-ops-agent/config.yaml)
+4. 백엔드 로그 설정 (로그 경로 추가)
+5. Google Cloud에서 Cloud Logging권한 부여및 어카운트 키(Json) 생성
+6. 게임
 
 
 
