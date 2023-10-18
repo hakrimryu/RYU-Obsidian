@@ -37,6 +37,13 @@ store (string) : google_play
 게임서버에서 BQ에 로깅작업의 검토
 ・cloud logging에ops agent를 사용해서 전송
 (この方法が一番柔軟性が高くて、Aiming側で好きに対応できる一般的な方法)
+1. Google Cloud VM 인스턴스 생성 (Aiming)
+2. Ops Agent 설치 (Aiming)
+3. Ops Agent 구성 (Aiming)
+4. 백엔드 로그 설정
+
+
+
 
 ・BigQuery PHP Library를 사용
 테스트용으로 준비한 BQ Sandbox_Nobollel에 PHP에서 라이브러리를 사용하여 데이터를 로깅한다.
