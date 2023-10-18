@@ -62,4 +62,4 @@ store (string) : google_play
 (Client측에서 Firebase Analytics와 BigQuery 연동 작업이 되었다는 것을 전제로 함)
 1.   【Unity】클라이언트애서 로깅 대상 api를 두드린다.
 2.   【AWS/게임서버】필요하에 서버측에서 Log용 데이터를 작성한다.
-3.   【Unity】response로 성공 값이 돌아 오면 FirebaseAnalytics.LogEvent를 이용하여 로깅한다.
+3.   【Unity】response로 성공 값이 돌아 오면 FirebaseAnalytics를 이용하여 로깅한다.
