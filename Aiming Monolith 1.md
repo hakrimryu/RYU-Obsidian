@@ -10,20 +10,19 @@
 		로깅시 필요한 백엔드 작업 (Nobollel)
 
 사전 작업
-구매와 소비관련의 중요도가 높을 경우 게임서버를 통한 로깅 작업을 실시 하기로 하였기 때문에
-이에 따른 BQ의 데이터셋의 데이터(CSV)가 필요하다 필요하다.
-Nobollel의 플래너측에서 작성할지 Aiming에서 작성할지?
+BigQuery의 데이터셋의 데이터(CSV)가 필요하다 필요하다.
+KPI 이벤트 리스트 참고해서 작성
+추후 등록은 BigQuery에 데이터셋 임포트는 Nobollel? Aiming?
 ex) 
-user_id (string) : f80c947f71b14e0eb9879d8631373fc0
-product_id (string) : com.aiming.pzlessdev.googleplay.0001
-price (int) : 100 
-store (string) : google_play
-
+user_id (string)
+product_id (string)
+price (int)
+store (string)
 
 게임서버에서 BigQuery에 로깅 예상 작업 검토(4가지 방법)
 ・공통작업
 1. 로깅 대상의 API조사
-2. BQ의 데이터셋 설계 및 작성(csv)및 데이터셋 생성
+2. BQ의 데이터셋 설계 및 작성(csv)및 데이터셋 생성 (사전작업)
 3. 사양및 로깅 데이터에 따른 API추가 및 수정
 
 ・cloud logging에ops agent를 사용해서 전송

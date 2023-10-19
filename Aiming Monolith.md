@@ -11,17 +11,18 @@
 
 사전 작업
 BigQuery의 데이터셋의 데이터(CSV)가 필요하다 필요하다.
-Nobollel에서 작성??
+KPI 이벤트 리스트 참고해서 작성
+추후 등록은 BigQuery에 데이터셋 임포트는 Nobollel? Aiming?
 ex) 
-user_id (string) : f80c947f71b14e0eb9879d8631373fc0
-product_id (string) : com.aiming.pzlessdev.googleplay.0001
-price (int) : 100 
-store (string) : google_play
+user_id (string)
+product_id (string)
+price (int)
+store (string)
 
 게임서버에서 BigQuery에 로깅 예상 작업 검토(4가지 방법)
 ・공통작업
 1. 로깅 대상의 API조사
-2. BQ의 데이터셋 설계 및 작성(csv)및 데이터셋 생성
+2. BQ의 데이터셋 설계 및 작성(csv)및 데이터셋 생성 (사전작업)
 3. 사양및 로깅 데이터에 따른 API추가 및 수정
 
 ・cloud logging에ops agent를 사용해서 전송
@@ -52,6 +53,8 @@ store (string) : google_play
 1.   【Unity】클라이언트애서 로깅 대상 api를 두드린다.
 2.   【AWS/게임서버】필요하에 서버측에서 Log용 데이터를 작성한다.
 3.   【Unity】response로 성공 값이 돌아 오면 FirebaseAnalytics를 이용하여 로깅한다.
+
+장단점
 
 
 ##링크
