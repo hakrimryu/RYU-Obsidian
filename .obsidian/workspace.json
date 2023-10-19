@@ -18,13 +18,7 @@
                 "source": false
               }
             }
-          }
-        ]
-      },
-      {
-        "id": "3ba8f068fb7fa252",
-        "type": "tabs",
-        "children": [
+          },
           {
             "id": "e912bdd0d5b15f05",
             "type": "leaf",
@@ -103,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Aiming Monolith.md",
+                "file": "Aiming Monolith(한).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Aiming Monolith.md",
+                "file": "Aiming Monolith(한).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Aiming Monolith.md"
+                "file": "Aiming Monolith(한).md"
               }
             }
           }
@@ -151,7 +145,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -163,10 +158,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "e912bdd0d5b15f05",
+  "active": "6a6db112c53a95e1",
   "lastOpenFiles": [
-    "Aiming Monolith(한).md",
     "Aiming Monolith.md",
+    "Aiming Monolith(한).md",
     "TASK/KHH/Ryu_Task.md",
     "TASK/KHH/Ryu_Task_Sub/테스트 딜리버리 작성.md",
     "메모.md",
