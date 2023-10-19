@@ -8,40 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "74cc4348cbb672ee",
-            "type": "leaf",
-            "state": {
-              "type": "kanban",
-              "state": {
-                "file": "TASK/KHH/Ryu_Task.md"
-              }
-            }
-          },
-          {
-            "id": "7539ab8f3e9c0b53",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TASK/KHH/Ryu_Task_Sub/테스트 딜리버리 작성.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0ba0a09461ac94ae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "메모.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "6a6db112c53a95e1",
             "type": "leaf",
             "state": {
@@ -53,8 +19,25 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
+      },
+      {
+        "id": "67e912bf24fa3ea5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e912bdd0d5b15f05",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Aiming Monolith 1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -182,11 +165,12 @@
   },
   "active": "6a6db112c53a95e1",
   "lastOpenFiles": [
-    "메모.md",
+    "Aiming Monolith 1.md",
     "Aiming Monolith.md",
-    "TASK/KHH/Ryu_Task_Sub/테스트 딜리버리 작성.md",
-    "무제 폴더",
     "TASK/KHH/Ryu_Task.md",
+    "TASK/KHH/Ryu_Task_Sub/테스트 딜리버리 작성.md",
+    "메모.md",
+    "무제 폴더",
     "TASK/KHH/Ryu_Task_Sub/LINK과금 클라이언트 와 LINK서버 설정 작업.md",
     "TASK/KHH/Ryu_Task_Sub/게임서버 개발LINK환경 설정.md",
     "TASK/개인/TODO.md",
