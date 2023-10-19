@@ -1,18 +1,8 @@
-사전 준비 및 검토 사항.
-Aiming사와 본 자료를 바탕으로 사전 미팅이 필용 할 것으로 생각 된다.
-
 확정된 작업
-1. Firebase Analyticsとmonolith(BigQuery)の連携
-・일반적인 사항
-3. サーバーを通じた、monolith(BigQuery)の使用
-・구매와 소비 관련의 중요도가 높은 경우
-(KPI イベントリスト)
-https://docs.google.com/spreadsheets/d/1tLgsojpTqspgkFo1fxYsQ1IgvLBk4s8kQRCzcyDBrUw/edit?pli=1#gid=1336877271
-
-(테스트환경)
-BQ Sandbox_Nobollel
-https://console.cloud.google.com/bigquery?project=bq-sandbox-402401&supportedpurview=project
-
+・기본 KPI 데이터 취득
+	- Firebase Analyticsとmonolith(BigQuery)の連携
+・과금 및 유상젬 소비 시 KPI 데이터 취득
+	- サーバーを通じた、monolith(BigQuery)の使用
 
 개발 협의
 1. 작업 리스트에 따라 Aiming사와 Nobollel측 작업을 분류할 필요가 있다.
@@ -63,3 +53,10 @@ store (string) : google_play
 1.   【Unity】클라이언트애서 로깅 대상 api를 두드린다.
 2.   【AWS/게임서버】필요하에 서버측에서 Log용 데이터를 작성한다.
 3.   【Unity】response로 성공 값이 돌아 오면 FirebaseAnalytics를 이용하여 로깅한다.
+
+
+##링크
+(KPI 이벤트 리스트)
+https://docs.google.com/spreadsheets/d/1tLgsojpTqspgkFo1fxYsQ1IgvLBk4s8kQRCzcyDBrUw/edit?pli=1#gid=1336877271
+(BQ Sandbox_Nobollel 테스트환경)
+https://console.cloud.google.com/bigquery?project=bq-sandbox-402401&supportedpurview=project

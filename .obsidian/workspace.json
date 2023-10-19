@@ -4,25 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "a0d96404175a6e52",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "6a6db112c53a95e1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Aiming Monolith.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "67e912bf24fa3ea5",
+        "id": "3cdc59cc84c050dc",
         "type": "tabs",
         "children": [
           {
@@ -32,6 +14,24 @@
               "type": "markdown",
               "state": {
                 "file": "Aiming Monolith 1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "4be007da552ab737",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6a6db112c53a95e1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Aiming Monolith.md",
                 "mode": "source",
                 "source": false
               }
