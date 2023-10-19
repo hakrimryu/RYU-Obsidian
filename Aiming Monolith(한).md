@@ -1,28 +1,28 @@
-### 確定された作業
-・基本KPIデータの取得
-	- Firebase Analyticsとmonolith(BigQuery)の連携
-・課金及び有償アイテム消費時のKPIデータ取得
-	- ゲームサーバを通じて、monolith(BigQuery)を利用
+### 확정된 작업
+・기본 KPI 데이터 취득
+	- Firebase Analytics와monolith(BigQuery)의연계
+・과금 및 유상젬 소비 시 KPI 데이터 취득
+	- 게임서버를 통한 、monolith(BigQuery)의 이용
 
-開発協議 (作業方法により)
-	作業リストに基づき、Aiming社とNobollel側の作業を分類する必要がある。
-	ex) インフラ側のツールのインストール及び設定(Aiming)
-		ログ時に必要なバックエンド作業 (Nobollel)
+개발 협의 (작업 방식에 따라)
+1. 작업 리스트에 따라 Aiming사와 Nobollel측 작업을 분류할 필요가 있다.
+	ex) 인프라측 툴 설치및 설정(Aiming)
+		로깅시 필요한 백엔드 작업 (Nobollel)
 
-事前作業
-BigQueryのデータセットのデータ(CSV)が必要。
-KPIイベントリストを参照して作成
-後でBigQueryにデータセットインポートはNobollel? Aiming?
+사전 작업
+BigQuery의 데이터셋의 데이터(CSV)가 필요하다 필요하다.
+KPI 이벤트 리스트 참고해서 작성
+추후 등록은 BigQuery에 데이터셋 임포트는 Nobollel? Aiming?
 ex) 
 user_id (string)
 product_id (string)
 price (int)
 store (string)
 
-ゲームサーバからBigQueryにロギング、予想作業検討(4つの方法)
-・共通作業
-1. ロギング対象のAPI調査
-2. BQのデータセット設計及び作成(csv)およびデータセットの生成 (事前作業)
+게임서버에서 BigQuery에 로깅 예상 작업 검토(4가지 방법)
+・공통작업
+1. 로깅 대상의 API조사
+2. BQ의 데이터셋 설계 및 작성(csv)및 데이터셋 생성 (사전작업)
 3. 사양및 로깅 데이터에 따른 API추가 및 수정
 
 ・cloud logging에ops agent를 사용해서 전송

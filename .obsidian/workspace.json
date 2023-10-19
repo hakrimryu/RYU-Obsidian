@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "3cdc59cc84c050dc",
+        "id": "4be007da552ab737",
         "type": "tabs",
         "children": [
           {
-            "id": "e912bdd0d5b15f05",
+            "id": "6a6db112c53a95e1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Aiming Monolith 1.md",
+                "file": "Aiming Monolith(한).md",
                 "mode": "source",
                 "source": false
               }
@@ -22,11 +22,11 @@
         ]
       },
       {
-        "id": "4be007da552ab737",
+        "id": "3ba8f068fb7fa252",
         "type": "tabs",
         "children": [
           {
-            "id": "6a6db112c53a95e1",
+            "id": "e912bdd0d5b15f05",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Aiming Monolith 1.md",
+                "file": "Aiming Monolith.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Aiming Monolith 1.md",
+                "file": "Aiming Monolith.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Aiming Monolith 1.md"
+                "file": "Aiming Monolith.md"
               }
             }
           }
@@ -165,8 +165,8 @@
   },
   "active": "e912bdd0d5b15f05",
   "lastOpenFiles": [
+    "Aiming Monolith(한).md",
     "Aiming Monolith.md",
-    "Aiming Monolith 1.md",
     "TASK/KHH/Ryu_Task.md",
     "TASK/KHH/Ryu_Task_Sub/테스트 딜리버리 작성.md",
     "메모.md",
