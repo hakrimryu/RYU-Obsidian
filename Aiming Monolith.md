@@ -1,15 +1,16 @@
-확정된 작업
+### 확정된 작업
 ・기본 KPI 데이터 취득
-	- Firebase Analyticsとmonolith(BigQuery)の連携
+	- Firebase Analytics와monolith(BigQuery)의연계
 ・과금 및 유상젬 소비 시 KPI 데이터 취득
-	- サーバーを通じた、monolith(BigQuery)の使用
+	- 게임서버를 통한 、monolith(BigQuery)의 이용
 
-개발 협의
+개발 협의 (작업 방식에 따라)
 1. 작업 리스트에 따라 Aiming사와 Nobollel측 작업을 분류할 필요가 있다.
 	ex) 인프라측 툴 설치및 설정(Aiming)
-	   로깅시 필요한 백엔드 작업 (Nobollel)
+		로깅시 필요한 백엔드 작업 (Nobollel)
 
-3. 구매와 소비관련의 중요도가 높을 경우 게임서버를 통한 로깅 작업을 실시 하기로 하였기 때문에
+사전 작업
+구매와 소비관련의 중요도가 높을 경우 게임서버를 통한 로깅 작업을 실시 하기로 하였기 때문에
 이에 따른 BQ의 데이터셋의 데이터(CSV)가 필요하다 필요하다.
 Nobollel의 플래너측에서 작성할지 Aiming에서 작성할지?
 ex) 
