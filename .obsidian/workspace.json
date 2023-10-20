@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Aiming Monolith.md",
+                "file": "메모.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Aiming Monolith.md",
+                "file": "메모.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Aiming Monolith.md",
+                "file": "메모.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Aiming Monolith.md"
+                "file": "메모.md"
               }
             }
           }
@@ -161,8 +161,8 @@
   },
   "active": "e912bdd0d5b15f05",
   "lastOpenFiles": [
-    "Aiming Monolith(한).md",
     "Aiming Monolith.md",
+    "Aiming Monolith(한).md",
     "TASK/KHH/Ryu_Task.md",
     "TASK/KHH/Ryu_Task_Sub/테스트 딜리버리 작성.md",
     "메모.md",
