@@ -7,6 +7,9 @@
 이번 추가및 수정 되는 Log는 유상, 무상 젬 사용에 따른
 w_use_paid_money_log의 추가와 w_gacha_log의 개수이다.
 
+
+
+
 가챠
 현재 테이블 구조
 
@@ -14,7 +17,7 @@ w_use_paid_money_log의 추가와 w_gacha_log의 개수이다.
 |---|---|---|---|
 |varchar(32)|varchar(32)|int|created_at|
 
-통화사용(유무상다이아)
+#### 通貨使用(有・無償ダイヤ)
 
 |used_diamond_log_id|user_id|is_paid|use_paid_money_type_id|amount_used|created_at|
 |---|---|---|---|---|---|
@@ -27,7 +30,7 @@ use_paid_money_type
 |int|varchar(32)|
 現、Shop・Gacha・Fever
 
+
+
 법률을 때문에 유료다이아의 경우 전우케킨 이기 때문에 이것을 생각할 필가 있음
-
-
 타스크 작성하자.
