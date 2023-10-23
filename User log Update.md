@@ -15,4 +15,4 @@ w_use_paid_money_log의 추가와 w_gacha_log의 개수이다.
 |varchar(32)|varchar(32)|int|created_at|
 
 통화사용(유무상다이아)
-user_id 
+user_id|is_paid|use_paid_money_type_id|amount_used|
