@@ -9,13 +9,9 @@ w_use_paid_money_log의 추가와 w_gacha_log의 개수이다.
 
 가챠
 현재 테이블 구조
-gacha_log_id | varchar(32)
-user_id | varchar(32)
-card_id | int
-created_at |  created_at
 
 |gacha_log_id|user_id|card_id|created_at|
-|------|---|---|---|
-|테스트1|테스트2|테스트3|---|
-|테스트1|테스트2|테스트3|---|
-|테스트1|테스트2|테스트3|---|
+|---|---|---|---|
+|varchar(32)|varchar(32)|int|created_at|
+
+통화사용(다이아)
