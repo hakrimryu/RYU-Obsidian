@@ -77,3 +77,10 @@ Fever:
 
 
 다이아 소비시 로깅
+
+
+ダイヤ消費(Gacha)ログ取得_Admin Api
+ダイヤ消費(Shop)ログ取得_Admin Api
+ダイヤ消費(Fever)ログ取得_Admin Api
+ 
+ダイヤ消費ログ取得AdminApiのendpointは、一つだけ
