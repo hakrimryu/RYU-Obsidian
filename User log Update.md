@@ -19,3 +19,10 @@ w_use_paid_money_log의 추가와 w_gacha_log의 개수이다.
 |used_diamond_log_id|user_id|is_paid|use_paid_money_type_id|amount_used|created_at|
 |---|---|---|---|---|---|
 |varchar(32)|varchar(32)|int|int|int|created_at|
+
+use_paid_money_type
+
+|use_paid_money_type_id|type|
+|---|---|
+|int|varchar(32)|
+現、Shop・Gacha・Fever
