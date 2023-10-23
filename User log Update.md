@@ -30,6 +30,21 @@ use_paid_money_type
 |int|varchar(32)|
 現、Shop・Gacha・Fever
 
+패턴이 너무 많기 때문에 use_paid_money_type_id를 취득이 아니라
+Json타입으로 이력을 남길 필요가 있다.
+
+클라이언트에서 위의 데이터를 넘길때
+json으로 가공한 log_data를 넘겨 받아서 저장하자.
+log데이터는 추후 KPI, 로그 툴 등에서 가공하여 처리 해야 한다.
+
+json데이터 설계
+
+shop:
+
+Gacha:
+
+Fever:
+
 
 
 법률을 때문에 유료다이아의 경우 前受金 이기 때문에 이것을 생각할 필가 있음
