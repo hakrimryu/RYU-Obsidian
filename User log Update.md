@@ -26,3 +26,8 @@ use_paid_money_type
 |---|---|
 |int|varchar(32)|
 現、Shop・Gacha・Fever
+
+법률을 때문에 유료다이아의 경우 전우케킨 이기 때문에 이것을 생각할 필가 있음
+
+
+타스크 작성하자.
