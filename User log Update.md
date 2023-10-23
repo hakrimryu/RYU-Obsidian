@@ -84,3 +84,14 @@ Fever:
 ダイヤ消費(Fever)ログ取得_Admin Api
  
 ダイヤ消費ログ取得AdminApiのendpointは、一つだけ
+
+무상 유상 코인 나누어서 받을 수 있음.
+
+때문에 테이블 수정이 필요함
+
+
+
+
+user_id, type, log_id, paid_count, free_count, created_at
+
+
