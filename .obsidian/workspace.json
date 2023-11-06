@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "User log Update.md",
+                "file": "메모.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "User log Update.md",
+                "file": "메모.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "User log Update.md",
+                "file": "메모.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "User log Update.md"
+                "file": "메모.md"
               }
             }
           }
@@ -173,8 +173,8 @@
   },
   "active": "483149ef55b2266e",
   "lastOpenFiles": [
-    "메모.md",
     "User log Update.md",
+    "메모.md",
     "Aiming Monolith.md",
     "Aiming Monolith(한).md",
     "TASK/KHH/Ryu_Task.md",
