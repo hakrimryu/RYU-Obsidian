@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0d73354253fe1d2f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "입사날 준비.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "메모.md",
+                "file": "입사날 준비.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "메모.md",
+                "file": "입사날 준비.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "메모.md"
+                "file": "입사날 준비.md"
               }
             }
           }
@@ -171,10 +183,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "483149ef55b2266e",
+  "active": "0d73354253fe1d2f",
   "lastOpenFiles": [
-    "User log Update.md",
+    "Pasted image 20231127094457.png",
     "메모.md",
+    "입사날 준비.md",
+    "User log Update.md",
     "Aiming Monolith.md",
     "Aiming Monolith(한).md",
     "TASK/KHH/Ryu_Task.md",
